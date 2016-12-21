@@ -1,28 +1,25 @@
 {
-  "title":"Write the name of your script here",
-  "description":"Write a short description of what your script does here",
+  "pwtoolVersion":"0.2.0",
+  "title":"JSON to InDesign",
+  "description":"This script runs inside InDesign. It pushes json field values into text variables within the InDesign document.",
   "coverImage":"./_PW/cover.png",
   "authors":[{
-    "name":"Kyle Example",
-    "email":"kyle.example@example.com",
+    "name":"Luc Deckinga",
+    "email":"Luc.Deckinga@perkinswill.com",
     "role":"developer"
   }],
-  "offices":[
-    "NewYork",
+  "offices":[,
     "SanFrancisco"
   ],
-  "projects":[{
-    "name":"Example Project",
-    "number":"123456.000",
-	"marketSector":"CCC"
-  }],
+  "projects":[{}],
   "dependencies":[{
-    "author":"Autodesk",
-    "name":"Revit",
-    "version":"2016"
+    "author":"Adobe",
+    "name":"InDesign",
+    "version":"CC"
   }],
   "tags":[
-    "boilerplate",
-    "example"
+    "Process Automation",
+    "JSON",
+	"InDesign"
   ]
 }
